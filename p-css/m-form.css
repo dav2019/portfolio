@@ -1,0 +1,21 @@
+.contentform {
+  width: 280px;
+  height: 180px;
+  margin-left: 20px;
+  background: yellow;
+  display: flex;  
+}
+.formdisplay {
+  width: 320px;
+  height: 260px;
+  margin-top: 50px;
+  background: #F3F9FF;
+}
+/* .content5 {
+  width: 280px;
+  height: 100px;
+  margin-left: 20px; */
+  /* background: gray; */
+  /* display: flex;
+  justify-content: space-around;  */
+}

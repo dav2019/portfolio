@@ -1,0 +1,120 @@
+.contents {
+  width: 320px;
+  height: 260px;
+  margin-top: 50px;
+  background: #F3F9FF;
+}
+.subhead {
+  width: 280px;
+  height: 60px;
+  margin-left: 20px;
+  background: #F3F9FF;
+  display: flex;
+  justify-content: center;
+  
+}
+.content2 {
+  width: 280px;
+  height: 200px;
+  margin-left: 20px;
+  background: #F3F9FF;
+  display: flex;
+  
+}
+.abt {
+  margin-top: 2px;
+}
+.bio {
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.paramob {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: light;
+}
+.skill {
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.content3 {
+  width: 280px;
+  height: 50px;
+  margin-left: 20px;
+  /* background: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;  
+}
+.c3a {
+  width: 80px;
+  height: 30px;
+  /* border: 1px solid black; */
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;    
+}
+.c3b {
+  width: 80px;
+  height: 30px;
+  /* border: 1px solid black; */
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;       
+}
+.c3c {
+  width: 80px;
+  height: 30px;
+  /* border: 1px solid black; */
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;  
+  font-weight: bold;
+  font-size: 20px;   
+}
+.content4 {
+  width: 280px;
+  height: 100px;
+  margin-left: 20px;
+  /* background: gray; */
+  display: flex;
+  justify-content: space-around; 
+}
+.c4a {
+  width: 90px;
+  height: 90px;
+  /* border: 1px solid black;  */
+  /* background-image: url("Ruby2.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* font-weight: 80px; */
+  font-size: 80px;
+  text-align: center;
+}
+.c4b {
+  width: 90px;
+  height: 90px;
+  /* border: 1px solid black; */
+  /* background-image: url("HTML5.png");
+  background-repeat: no-repeat;
+  background-size: cover;  */
+  font-size: 80px;
+  text-align: center;
+}
+.c4c {
+  width: 90px;
+  height: 90px;
+  /* border: 1px solid black; */
+  /* background-image: url("css.png");
+  background-repeat: no-repeat;
+  background-size: cover;   */
+  font-size: 80px;
+  text-align: center;
+}

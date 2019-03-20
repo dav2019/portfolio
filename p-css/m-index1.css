@@ -1,0 +1,84 @@
+@import 'm-navbar.css';
+@import 'm-footer.css';
+@import 'm-content.css';
+@import 'm-form.css';
+* {
+  margin: 0px;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  /* width: 320px;
+  height: 568px; */
+  height: 100vh;
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #000428, #004e92); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #000428, #004e92); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box1 {
+  width: 300px;
+  height: 50px;
+  /* border: 1px solid white; */
+
+  display: flex;  
+}
+.label {
+  width: 60px;
+  height: 49px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 1px;
+  border: 1px solid white;
+  display: flex;
+  background: black;
+}
+.label1 {
+  width: 33px;
+  height: 33px;
+  margin-left: 5px;
+  margin-bottom: 17px;
+  /* border: 1px solid white; */
+  font-size: 30px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.label2 {
+  width: 23px;
+  height: 18px;
+  margin-top: 26px;
+  margin-left: 3px;
+  background: black;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.box2 {
+  width: 220px;
+  height: 105px;
+  margin-left: 20px;
+  margin-top: 160px;
+  /* border: 1px solid white; */
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.box3 {
+  width: 220px;
+  height: 105px;
+  margin-left: 20px;
+  margin-top: 50px;
+  /* border: 1px solid white; */
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.fas {
+  color: white;
+}

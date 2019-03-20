@@ -1,7 +1,7 @@
-@import 'm-navbar.css';
-@import 'm-footer.css';
-@import 'm-content.css';
-@import 'm-form.css';
+@import 'navbar.css';
+@import 'footer.css';
+@import 'content.css';
+@import 'form.css';
 * {
   margin: 0px;
 }

@@ -44,3 +44,14 @@ li a:hover, .dropdown:hover .dropbtn {
 .fas {
   font-size: 25px;
 }
+
+.navbar-desktop {
+  display: none;
+}
+
+.desktop1 {
+  display: none;
+}
+.desktop2 {
+  display: none;
+}

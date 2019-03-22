@@ -16,7 +16,7 @@
   }
 } */
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 920px) {
   body {
     /* margin: 0 50px; */
   }
@@ -374,6 +374,13 @@
     display: none;
   }
   
+}
+@media only screen and (min-width : 321px) {
+  .formdisplay {
+    width: 320px;
+    margin: (0, auto)
+  }
+
 }
 
 /* @media only screen and (min-width:415px) and (min-width: 800px) {

@@ -86,7 +86,7 @@ input[type=submit]:active {
   /* background:green; */
   display: flex;
   align-items: center;
-  border-right: 2px solid black;
+  border-right: 1px solid black;
 }
 .sp2 {
   width: 50%;

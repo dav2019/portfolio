@@ -32,7 +32,7 @@ body {
   margin-left: 20px;
   margin-top: 5px;
   margin-bottom: 1px;
-  border: 1px solid #F2FAFF;
+  border: 2px solid #F2FAFF;
   display: flex;
   background: black;
 }
@@ -43,9 +43,9 @@ body {
   margin-bottom: 17px;
   /* border: 1px solid white; */
   font-size: 30px;
-  color: white;
+  color: #F2FAFF;
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 .label2 {
   width: 22px;
@@ -54,20 +54,21 @@ body {
   margin-left: 2px;
   background: black;
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: #F2FAFF;
   font-size: 19px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 .box2 {
-  width: 220px;
+  width: 270px;
   height: 105px;
   margin-left: 20px;
-  margin-top: 160px;
+  margin-top: 150px;
   /* border: 1px solid white; */
   font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-size: 30px;
-  font-weight: bold;
+  color: #F2FAFF;
+  font-size: 19px;
+  /* font-weight: bold; */
+  /* background: gray; */
 }
 .box3 {
   width: 220px;
@@ -76,10 +77,9 @@ body {
   margin-top: 50px;
   /* border: 1px solid white; */
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: #F2FAFF;
   font-size: 40px;
-  font-weight: bold;
 }
 .fas {
-  color: white;
+  color: #F2FAFF;
 }

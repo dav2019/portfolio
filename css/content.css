@@ -6,19 +6,21 @@
 }
 .subhead {
   width: 280px;
-  height: 60px;
+  height: 50px;
   margin-left: 20px;
   background: #F3F9FF;
   display: flex;
   justify-content: center;
+  /* background: greenyellow; */
   
 }
 .content2 {
   width: 280px;
-  height: 200px;
+  height: 210px;
   margin-left: 20px;
   background: #F3F9FF;
   display: flex;
+  /* background: dodgerblue; */
   
 }
 .abt {
@@ -27,25 +29,25 @@
 .bio {
   margin-top: 10px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 25px;
+  /* font-weight: bold; */
   color: black;
 }
 .paramob {
   font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
-  font-weight: light;
+  font-size: 11.5px;
+  /* font-weight: light; */
 }
 .skill {
   margin-top: 10px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 25px;
+  /* font-weight: bold; */
   color: black;
 }
 .content3 {
   width: 280px;
-  height: 50px;
+  height: 60px;
   margin-left: 20px;
   /* background: yellow; */
   display: flex;
@@ -58,8 +60,8 @@
   /* border: 1px solid black; */
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-weight: bold;
-  font-size: 20px;    
+  /* font-weight: bold; */
+  font-size: 18px;    
 }
 .c3b {
   width: 80px;
@@ -67,8 +69,8 @@
   /* border: 1px solid black; */
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-weight: bold;
-  font-size: 20px;       
+  /* font-weight: bold; */
+  font-size: 18px;       
 }
 .c3c {
   width: 80px;
@@ -76,8 +78,8 @@
   /* border: 1px solid black; */
   font-family: 'Montserrat', sans-serif;
   text-align: center;  
-  font-weight: bold;
-  font-size: 20px;   
+  /* font-weight: bold; */
+  font-size: 18px;   
 }
 .content4 {
   width: 280px;

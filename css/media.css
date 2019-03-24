@@ -1,88 +1,73 @@
-/* @media only screen and (max-width: 480px) {
-  body {
-    background: yellow;
-  }
-  .container {
-    display: none;
-  }
-  .containerdesktop {
-    display: flex;
-  }
-} 
-@media screen and (max-width:600px) and (max-widtj){
-  .container {
+/* NOTE! some of the words that are highlighted as green or has (/*) at each side are
+ mainly for debugging and planning purposes */
 
-    background-color: yellow;
-  }
-} */
+/* ------------------desktop media queries------------------------------------------ */
 
 @media only screen and (min-width: 920px) {
+  
   body {
     /* margin: 0 50px; */
   }
+
   .container {
     height: 100vh;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    /* filter: contrast(90%); */
   }
-
+  /* -----removing mobiles features when width is greater than 920px----- */
   .box1 {
     display: none;
   }
+
   .box1 .label {
     display: none;
   }
+
   .dropdown {
     display: none;
   }
-   /* .navbar-desktop {
-    display: flex;
-    justify-content: space-between; 
-  }  */
+
+  /* --------------------------desktop media queries----------------------------------------- */
+  
+  /* ---.desktop1 is the outer box for navbar setup + logo setup----- */
+  
   .desktop1 {
     display: flex;
     width: 30%;
     height: 90vh;
-    /* background: gray; */
   }
-  /* .desktop2 {
-    display: flex;
-    width: 60%;
-    height: 100vh;
-    background: blue;
-  } */
+  /* ---desktopnav is the child of .desktop1----- */
+  
   .desktopnav {
     display:flex;
-    /* background: white; */
     height: 100vh;
     width: 90%;
     margin-left: 20%;
   }
+
+  /* ----navbardesk contains a child label-desk aka my logo 
+  and a child nav-deslink (home, About, skill, contact links)------  */
+  
   .navbardesk {
-    /* background: olive; */
-    /* border: 1px solid white; */
     border-right: none;
     height: 600px;
     width: 90%;
     margin-left: 10%;
     margin-top: 15%;
   }
+
   .nav-desklink {
-    /* background: paleturquoise; */
     margin-top: 30px;
     width: 100%;
     height: 480px;
     display: flex;
     flex-direction: column;
   }
+  /* ---side navbar aka .nav-desklink customizations----- */
+  
   .headlinks {
-    /* background: green; */
     height: 100px;
     width: 100%;
     margin-bottom: 20px;
-    /* border-radius: 8px; */
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -93,55 +78,61 @@
     font-family: 'Montserrat', sans-serif;
     color: white;
     background: black;
-    font-weight: bold;
     font-size: 40px;
-    /* border: 1px solid white; */
     padding: 15px 33px;
     border-radius: 8px;
   }
+
   .headder2 {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: white;
     background: black;
-    font-weight: bold;
     font-size: 40px;
-    /* border: 1px solid white; */
     padding: 15px 54px;
     border-radius: 8px;
   }
+
   .headder3 {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: white;
     background: black;
-    font-weight: bold;
     font-size: 40px;
-    /* border: 1px solid white; */
     padding: 15px 15px;
     border-radius: 8px;
   }
+
   .headder1:hover {
     background: #F3F9FF;
     color: black
   }
+
   .headder2:hover {
     background: #F3F9FF;
     color: black
   }
+
   .headder3:hover {
     background: #F3F9FF;
     color: black
   }
+
   .headder1:active {
     transform: translateY(2px)
   }
+
   .headder2:active {
     transform: translateY(2px)
   }
+
   .headder3:active {
     transform: translateY(2px)
   }
+  /* ---end of side navbar aka .nav-desklink customizations----- */
+  
+  /* ----.label1-desk/.label2-desk my logo customizaton------- */
+  
   .label1-desk {
     width: 45px;
     height: 45px;
@@ -177,28 +168,25 @@
     display: flex;
     background: black;
   }
-
-  /* .navbar-desktop a {
-    border: 1px black solid;
-    display: inline-block;
-    margin: 10px;
-    background: black;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-  } */
-
+   /* ----end of .label1-desk/.label2-desk my logo customizaton------- */
+  /* -----removing mobiles features when width is greater than 920px----- */
+  
   .nav {
     display: none;
   }
+
+  /* ----desktop div box for contact form------ */
+  
   .formdisplay {
     width: 100vw;
     border: 2px solid black;
   }
+
+  /* -----removing mobiles features when width is greater than 920px----- */
+  
   .box2 {
     display: none;
   }
-
 
   .box3 {
     display: none;
@@ -206,21 +194,26 @@
   .contents {
     display: none;
   }
+
+  /* -----end of removing mobiles features when width is greater than 920px----- */
+
+  /* ----desktop2 are contents for desktop mode and its on the right side of desktop1---- */
+  
   .desktop2 {
     display: flex;
     width: 600px;
     height: 500px;
-    /* background: dodgerblue; */
     margin-top: 14.5%;
     margin-left: 1%;
     margin-right: 5%;
     flex-direction: column;
   }
+  /* ----title1 is a heading for its contents and is the parent of .title1content for about page---- */
+  
   .title1 {
     width: 600px;
     height: 100px;
     background: #F3F9FF;
-    /* margin-left: 30px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,19 +222,23 @@
     border-bottom: 1px solid black;
     color: black;
   }
+
   .title1content {
     width: 590px;
     background: #F3F9FF;
     height: 340px;
-    /* margin-left: 30px; */
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding: 5px;
     text-align: center;
   }
+
   .title1content p {
     margin-top: 20px;
   }
+
+  /* ---.titlecontent is the parent of .gridcontent (contains img of ruby html css)----- */
+  
   .titlecontent {
     width: 600px;
     background: #F3F9FF;
@@ -250,14 +247,17 @@
     display: flex;
     align-items: center;
   }
+
+  /* ---- desktop contact form ---------- */
+
   .contactcontent {
     width: 600px;
     background: #F3F9FF;
     height: 350px;
     display: flex;
   }
+
   .getintouch {
-    /* background: orange; */
     width: 300px;
     height: 350px;
     display: flex;
@@ -265,6 +265,7 @@
     border-right: 1px solid black;
     align-items: center;
   }
+
   .getintouch h2 {
     font-family: 'Montserrat', sans-serif;
     margin-top: 12px;
@@ -272,28 +273,34 @@
     padding-bottom: 3px;
     border-bottom: 1px solid black;
   }
+
   .desktopform {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   label {
     margin-bottom: 2px;
   }
+
   input[type=text] {
     height: 22px;
     margin-bottom: 2px;
   }
+
   input[type=email] {
     margin-bottom: 2px;
     height: 22px;
     width: 280px;
   }
+
   #message {
     height: 60px;
     width: 280px;
   }
+
   input[type=submit] {
     margin-top: 8px;
     font-family: 'Montserrat', sans-serif;
@@ -301,14 +308,14 @@
     width: 280px;
     font-size: 18px;
   }
+
   .mysocialprofile {
-    /* background: olive; */
     width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
   }
+
   .mysocialprofile h2 {
     font-family: 'Montserrat', sans-serif;
     margin-top: 12px;
@@ -316,71 +323,83 @@
     padding-bottom: 3px;
     border-bottom: 1px solid black;
   }
+
   .mysocialprofile a {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-decoration: none;
     color: black;
   }
+
   .mysocialprofile a p {
     margin-top: 20px;
     margin-bottom: 10px;
   }
+
   .devicon-github-plain {
     font-size: 70px;
   }
+
   .fa-linkedin {
     font-size: 70px;
   }
+  /* ---- end desktop contact form ---------- */
+  /* ---.titlecontent is the parent of .gridcontent (contains img of ruby html css)
+  gridcontent customization----- */
+  
   .gridcontent {
     height: 120px;
     width: 600px;
     display: grid;
     grid-template-columns: 120px 120px 120px;
     grid-template-rows: 120px 120px 120px;
-    /* background: yellow; */
     justify-content: space-evenly;
-    /* background-repeat: no-repeat;
-    background-size: cover; */
   }
-  .grid-item {
-    /* border: 1px solid black; */
-    
-  }
+
   .devicon-ruby-plain-wordmark {
     font-size: 120px;
   }
+
   .devicon-html5-plain-wordmark {
     font-size: 118px;
   }
+
   .devicon-css3-plain-wordmark {
     font-size: 118px;
   }
+
+  /* --end of grid customizations---- */
+
+  /* --.alignment is the title for first desktop webpage--- */
+  
   .alignment {
     width: 580px;
     height: 200px;
-    /* background: black; */
     margin-left: 30px;
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-    /* border-bottom: 1px solid black;
-    color: black; */
   }
+
   .alignment h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 80px;
     color: #F2FAFF;
   }
+
+  /* -----removing mobiles features when width is greater than 920px----- */
+
   .formdisplay {
     display: none;
   }
+
   .label {
     display: none;
   }
+
   div .box1 {
     display: none;
   }
+
+  /* ---created a desktop footer include image links to linkedin and github---- */
+  
   footer {
     display: flex;
     position: fixed;
@@ -390,6 +409,7 @@
     background: black;
     align-items: center;
   }
+
   footer p {
     color: #f2faff;
     margin-left: 9%;
@@ -397,19 +417,25 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 25px
   }
+
   footer a {
     text-decoration: none;
   }
+
   .footericon {
     font-size: 40px;
     color:  #f2faff;
     margin-left: 10px;
   }
+
   #githubfooter {
     color:  #f2faff;
     margin-left: 10px;
   }
 }
+
+/* ---media queries for mobile responsiveness--- */
+
 @media only screen and (max-width: 919px) and (min-width : 321px) {
   .formdisplay {
     width: 100%;
@@ -417,17 +443,12 @@
     flex-direction: column;
     align-items: center;  
   }
+
   .contents {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;  
   }
-
 }
 
-/* @media only screen and (min-width:415px) and (min-width: 800px) {
-  .container {
-    background: red;
-  }
-} */

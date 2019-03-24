@@ -54,8 +54,8 @@ input[type=submit] {
   margin-top: 3px;
   margin-bottom: 3px;
   font-family: 'Montserrat', sans-serif;
-  border: 1px solid black;
-  padding: 2px 2px;
+  border: 0.5px solid black;
+  padding: 3px 3px;
   font-size: 14px;
   background: white;
   outline: none;

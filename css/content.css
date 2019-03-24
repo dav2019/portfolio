@@ -1,50 +1,66 @@
-.contents {
+/* NOTE! some of the words that are highlighted as green or has (/*) at each side are
+ mainly for debugging and planning purposes */
+
+ /* ---.contents contains a subheading and the contents of the subheading------ */
+
+ .contents {
   width: 320px;
   height: 260px;
   margin-top: 50px;
   background: #F3F9FF;
 }
+
 .subhead {
   width: 280px;
   height: 50px;
   margin-left: 20px;
   background: #F3F9FF;
   display: flex;
-  justify-content: center;
-  /* background: greenyellow; */
-  
+  justify-content: center;  
 }
+
+/* ---.content2 is the parent of .paramob----- */
+
 .content2 {
   width: 280px;
   height: 210px;
   margin-left: 20px;
   background: #F3F9FF;
   display: flex;
-  /* background: dodgerblue; */
-  
 }
+
+/* --puting a margin top for Biography---- */
+
 .abt {
   margin-top: 2px;
 }
+
 .bio {
   margin-top: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
-  /* font-weight: bold; */
   color: black;
 }
+
+/* ---content below .bio a paragraph containing about me------- */
+
 .paramob {
   font-family: 'Montserrat', sans-serif;
   font-size: 11.5px;
   /* font-weight: light; */
 }
+
+/* -------skill mobile webpage--------- */
+
 .skill {
   margin-top: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
-  /* font-weight: bold; */
   color: black;
 }
+
+/* ---content 3 has 3 divs inside - those 3 divs are titles of each programs that i have learnt so far---- */
+
 .content3 {
   width: 280px;
   height: 60px;
@@ -54,33 +70,39 @@
   align-items: center;
   justify-content: space-around;  
 }
+
+/* ---title for ruby--- */
+
 .c3a {
   width: 80px;
   height: 30px;
-  /* border: 1px solid black; */
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  /* font-weight: bold; */
   font-size: 18px;    
 }
+
+/* ---title for html--- */
+
 .c3b {
   width: 80px;
   height: 30px;
-  /* border: 1px solid black; */
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  /* font-weight: bold; */
   font-size: 18px;       
 }
+
+/* ---title for css--- */
+
 .c3c {
   width: 80px;
   height: 30px;
-  /* border: 1px solid black; */
   font-family: 'Montserrat', sans-serif;
   text-align: center;  
-  /* font-weight: bold; */
   font-size: 18px;   
 }
+
+/* -content4 contains 3 divs that has the images for the 3 titles---- */
+
 .content4 {
   width: 280px;
   height: 100px;
@@ -89,34 +111,24 @@
   display: flex;
   justify-content: space-around; 
 }
+
 .c4a {
   width: 90px;
   height: 90px;
-  /* border: 1px solid black;  */
-  /* background-image: url("Ruby2.png");
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* font-weight: 80px; */
   font-size: 80px;
   text-align: center;
 }
+
 .c4b {
   width: 90px;
   height: 90px;
-  /* border: 1px solid black; */
-  /* background-image: url("HTML5.png");
-  background-repeat: no-repeat;
-  background-size: cover;  */
   font-size: 80px;
   text-align: center;
 }
+
 .c4c {
   width: 90px;
   height: 90px;
-  /* border: 1px solid black; */
-  /* background-image: url("css.png");
-  background-repeat: no-repeat;
-  background-size: cover;   */
   font-size: 80px;
   text-align: center;
 }

@@ -1,19 +1,26 @@
+/* NOTE! some of the words that are highlighted as green or has (/*) at each side are
+ mainly for debugging and planning purposes */
+/* ---navbar.css is for the hamburger menu for mobile only----- */
+/* ---.nav is the child of the box1---- */
+
 .nav {
   width: 42px;
   height: 30px;
   margin-top: 19px;
-  /* border: 1px solid black; */
   margin-left: 174px;
   text-align: right;
   position: absolute;
   right: 3%;
 }
+
+/* -----css customization for hamburger menu within .nav-------- */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
+
 li a, .dropbtn {
   display: inline-block;
   color: black;
@@ -22,9 +29,11 @@ li a, .dropbtn {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
 }
+
 li a:hover, .dropdown:hover .dropbtn {
   /* background: #F3F9FF; */
 }
+
 .dropdown-content {
   display: none;
   width: 75px;
@@ -34,6 +43,7 @@ li a:hover, .dropdown:hover .dropbtn {
   background: #F3F9FF;
   z-index: 1;
 }
+
 .dropdown-content a {
   color: black;
   padding: 1px 1px;
@@ -43,13 +53,19 @@ li a:hover, .dropdown:hover .dropbtn {
   font-size: 15px;
   margin-top: 3px;
 }
+
 .dropdown-content a:hover {background: #B6E6D6}
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* ----changing the font size and color of the hamburger menu------- */
 .fas {
   font-size: 25px;
+  color: #F2FAFF;
 }
+
+/* ---- preventative measure to ensure desktop html code doesn't appear on mobile webpages----- */
 
 .navbar-desktop {
   display: none;
@@ -58,6 +74,7 @@ li a:hover, .dropdown:hover .dropbtn {
 .desktop1 {
   display: none;
 }
+
 .desktop2 {
   display: none;
 }

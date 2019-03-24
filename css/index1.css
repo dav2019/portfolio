@@ -1,3 +1,5 @@
+/* NOTE! some of the words that are highlighted as green or has (/*) at each side are
+ mainly for debugging and planning purposes */
 @import 'navbar.css';
 @import 'footer.css';
 @import 'content.css';
@@ -6,13 +8,15 @@
 * {
   margin: 0px;
 }
+
+/* --------setting the background------------ */
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #004e92;
 }
+
 .container {
-  /* width: 320px;
-  height: 568px; */
   height: 100vh;
   background: #000428; /*fallback for old browsers*/
   background: -webkit-linear-gradient(to bottom, #000428, #004e92); /*Chrome 10-25, Safari 5.1-6*/
@@ -20,12 +24,19 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* ---------MOBILE CSS customization for my Label and Hamburger menu----------- */
+/* -----box1 is a div that contains 2 other div -label div for my Logo and nav div for my hamburger-------- */
+
 .box1 {
   width: 300px;
   height: 50px;
-  /* border: 1px solid white; */
   display: flex;  
 }
+
+/* ---the label div contains 2 div - first div for 1st word of my logo 
+and second div for my 2nd word of my logo both are mainly for customization--- */
+
 .label {
   width: 60px;
   height: 49px;
@@ -36,6 +47,9 @@ body {
   display: flex;
   background: black;
 }
+
+/* ---label1 is the 1st word of my mobile logo----  */
+
 .label1 {
   width: 33px;
   height: 33px;
@@ -45,8 +59,10 @@ body {
   font-size: 30px;
   color: #F2FAFF;
   font-family: 'Montserrat', sans-serif;
-  /* font-weight: bold; */
 }
+
+/* ---label2 is the 2nd word of my mobile logo----  */
+
 .label2 {
   width: 22px;
   height: 18px;
@@ -56,30 +72,30 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #F2FAFF;
   font-size: 19px;
-  /* font-weight: bold; */
 }
+
+/* -----box2 is a div for my title for my first mobile webpage------ */
+
 .box2 {
   width: 270px;
   height: 105px;
   margin-left: 20px;
   margin-top: 150px;
-  /* border: 1px solid white; */
   font-family: 'Montserrat', sans-serif;
   color: #F2FAFF;
   font-size: 19px;
-  /* font-weight: bold; */
   /* background: gray; */
 }
+
+/* -----box3 is a div, within that div there is a h3 header. 
+Box3 is only used for mobile web page (contact, about me, skill)----  */
+
 .box3 {
   width: 220px;
   height: 105px;
   margin-left: 20px;
   margin-top: 50px;
-  /* border: 1px solid white; */
   font-family: 'Montserrat', sans-serif;
   color: #F2FAFF;
   font-size: 40px;
-}
-.fas {
-  color: #F2FAFF;
 }

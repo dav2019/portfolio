@@ -1,3 +1,6 @@
+/* NOTE! some of the words that are highlighted as green or has (/*) at each side are
+ mainly for debugging and planning purposes */
+ /* ---- preventative measure to ensure desktop html code doesn't appear on mobile webpages----- */
 footer {
   display: none;
 }

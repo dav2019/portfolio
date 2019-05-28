@@ -432,6 +432,12 @@
     color:  #f2faff;
     margin-left: 10px;
   }
+
+  .download-link {
+    font-size: 0.8em;
+    margin-left: 1.5em;
+    color:  #f2faff;
+  }
 }
 
 /* ---media queries for mobile responsiveness--- */

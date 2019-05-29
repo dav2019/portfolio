@@ -37,7 +37,7 @@ li a:hover, .dropdown:hover .dropbtn {
 .dropdown-content {
   display: none;
   width: 75px;
-  height: 100px;
+  height: 125px;
   position: absolute;
   right: 0%;
   background: #F3F9FF;

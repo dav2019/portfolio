@@ -5,6 +5,7 @@
 @import 'content.css';
 @import 'form.css';
 @import 'media.css';
+@import 'project.css';
 * {
   margin: 0px;
 }

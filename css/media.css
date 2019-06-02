@@ -201,65 +201,68 @@
   
   .desktop2 {
     display: flex;
-    width: 600px;
-    height: 500px;
-    margin-top: 14.5%;
-    margin-left: 1%;
-    margin-right: 5%;
+    width: 100%;
+    height: 100vh;
+    margin-top: 10.5em;
+    margin-left: 3em;
+    margin-right: 2em;
     flex-direction: column;
   }
   /* ----title1 is a heading for its contents and is the parent of .title1content for about page---- */
   
   .title1 {
-    width: 600px;
-    height: 100px;
+    width: 100%;
+    height: 6.25em;
     background: #F3F9FF;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 1.6em;
     border-bottom: 1px solid black;
     color: black;
+    border-radius: 16px 16px 0 0;
   }
 
   .title1content {
-    width: 590px;
     background: #F3F9FF;
-    height: 340px;
+    height: 21.25em;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    padding: 5px;
+    font-size: 1.25em;
+    padding: 0.25em;
     text-align: center;
+    border-radius: 0 0 16px 16px;
   }
 
   .title1content p {
-    margin-top: 20px;
+    margin-top: 1em;
   }
 
   /* ---.titlecontent is the parent of .gridcontent (contains img of ruby html css)----- */
   
   .titlecontent {
-    width: 600px;
+    width: 100%;
     background: #F3F9FF;
-    height: 350px;
+    height: 27.2em;
     /* margin-left: 30px; */
     display: flex;
     align-items: center;
+    border-radius: 0 0 16px 16px;
   }
 
   /* ---- desktop contact form ---------- */
 
   .contactcontent {
-    width: 600px;
+    width: 100%;
     background: #F3F9FF;
-    height: 350px;
+    height: 27.2em;
     display: flex;
+    border-radius: 0 0 16px 16px;
   }
 
   .getintouch {
-    width: 300px;
-    height: 350px;
+    width: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     border-right: 1px solid black;
@@ -275,7 +278,7 @@
   }
 
   .desktopform {
-    margin-top: 10px;
+    margin-top: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -286,23 +289,26 @@
   }
 
   input[type=text] {
-    height: 22px;
-    margin-bottom: 2px;
+    height: 1.5em;
+    margin-bottom: 1em;
+    font-size: 0.75em;
   }
 
   input[type=email] {
-    margin-bottom: 2px;
-    height: 22px;
+    margin-bottom: 1em;
+    height: 1.5em;
     width: 280px;
+    font-size: 0.75em;
   }
 
   #message {
-    height: 60px;
+    height: 5em;
     width: 280px;
+    font-size: 0.75em;
   }
 
   input[type=submit] {
-    margin-top: 8px;
+    margin-top: 1.5em;
     font-family: 'Montserrat', sans-serif;
     height: 30px;
     width: 280px;
@@ -310,7 +316,7 @@
   }
 
   .mysocialprofile {
-    width: 300px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -349,9 +355,9 @@
   
   .gridcontent {
     margin-top: 1.25em;
-    width: 600px;
+    width: 100%;
     display: grid;
-    grid-row-gap: 0.75em;
+    grid-row-gap: 1em;
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
   }

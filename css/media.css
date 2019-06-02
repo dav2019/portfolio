@@ -348,24 +348,16 @@
   gridcontent customization----- */
   
   .gridcontent {
-    height: 120px;
+    margin-top: 1.25em;
     width: 600px;
     display: grid;
-    grid-template-columns: 120px 120px 120px;
-    grid-template-rows: 120px 120px 120px;
+    grid-row-gap: 0.75em;
+    grid-template-columns: auto auto auto;
     justify-content: space-evenly;
   }
 
-  .devicon-ruby-plain-wordmark {
-    font-size: 120px;
-  }
-
-  .devicon-html5-plain-wordmark {
-    font-size: 118px;
-  }
-
-  .devicon-css3-plain-wordmark {
-    font-size: 118px;
+  .desk-devicon {
+    font-size: 5.625em;
   }
 
   /* --end of grid customizations---- */

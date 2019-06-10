@@ -13,6 +13,10 @@
   margin: auto;
   height: 210px;
 }
+
+.java {
+  margin-bottom: 0.75em;
+}
 /* Hide the images by default */
 .mySlides {
   display: none;

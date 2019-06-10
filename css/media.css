@@ -55,6 +55,10 @@
     margin-top: 15%;
   }
 
+  .navbardesk a {
+    text-decoration: none;
+  }
+
   .nav-desklink {
     margin-top: 30px;
     width: 100%;

@@ -35,6 +35,10 @@ body {
   display: flex;  
 }
 
+.box1 a {
+  text-decoration: none;
+}
+
 /* ---the label div contains 2 div - first div for 1st word of my logo 
 and second div for my 2nd word of my logo both are mainly for customization--- */
 

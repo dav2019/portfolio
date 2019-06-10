@@ -103,17 +103,29 @@
   to {opacity: 1}
 }
 
-/* Desktop Projects Page */
+/* Desktop Projects Page --------------------------------------*/
+.project-desk {
+  height: 42em;
+}
+
+.project-col {
+  width: 100%;
+  height: 355px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 0.5em;
+}
+
 .project-desktop {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 .project-desktop a {
-  margin: 0.25em 0.25em;
+  margin: 0.5em 0.25em;
   width: 280px;
   height: 300px;
   text-decoration: none;
@@ -141,6 +153,7 @@
 .project-desktop a:hover {
   transform: translateY(0.25em);
 }
+
 
 
 

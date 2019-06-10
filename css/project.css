@@ -103,7 +103,7 @@
   to {opacity: 1}
 }
 
-/* Desktop Projects Page --------------------------------------*/
+/* Desktop Projects Page --------------------------------------
 .project-desk {
   height: 42em;
 }
@@ -152,7 +152,7 @@
 
 .project-desktop a:hover {
   transform: translateY(0.25em);
-}
+} */
 
 
 
